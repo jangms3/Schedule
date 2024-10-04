@@ -24,4 +24,7 @@ public class Schedule {
         this.updatedAt = LocalDateTime.now();
     }
 
+    public Schedule(){
+    }
+
 }
