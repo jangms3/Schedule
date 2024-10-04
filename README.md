@@ -20,31 +20,32 @@
     일정이 존재하지 않을 경우 404 오류를 반환한다. 
 
 5. 파일 구조 
-src
-┣ main
-┃ ┣ java
-┃ ┃ ┗ com
-┃ ┃ ┃ ┗ sparta
-┃ ┃ ┃ ┃ ┗ schedule
-┃ ┃ ┃ ┃ ┃ ┣ controller
-┃ ┃ ┃ ┃ ┃ ┃ ┗ ScheduleController.java
-┃ ┃ ┃ ┃ ┃ ┣ dto
-┃ ┃ ┃ ┃ ┃ ┃ ┣ ScheduleRequestDto.java
-┃ ┃ ┃ ┃ ┃ ┃ ┗ ScheduleResponseDto.java
-┃ ┃ ┃ ┃ ┃ ┣ entity
-┃ ┃ ┃ ┃ ┃ ┃ ┗ Schedule.java
-┃ ┃ ┃ ┃ ┃ ┣ repository
-┃ ┃ ┃ ┃ ┃ ┃ ┗ ScheduleRepository.java
-┃ ┃ ┃ ┃ ┃ ┣ service
-┃ ┃ ┃ ┃ ┃ ┃ ┗ ScheduleService.java
-┃ ┃ ┃ ┃ ┃ ┗ ScheduleApplication.java
-┃ ┗ resources
-┃ ┃ ┣ static
-┃ ┃ ┣ templates
-┃ ┃ ┗ application.properties
-┗ test
-┃ ┗ java
-┃ ┃ ┗ com
-┃ ┃ ┃ ┗ sparta
-┃ ┃ ┃ ┃ ┗ schedule
-┃ ┃ ┃ ┃ ┃ ┗ ScheduleApplicationTests.java
+
+   src<br>
+   ┣ main<br>
+   ┃ ┣ java<br>
+   ┃ ┃ ┗ com<br>
+   ┃ ┃ ┃ ┗ sparta <br>
+   ┃ ┃ ┃ ┃ ┗ schedule <br>
+   ┃ ┃ ┃ ┃ ┃ ┣ controller <br>
+   ┃ ┃ ┃ ┃ ┃ ┃ ┗ ScheduleController.java <br>
+   ┃ ┃ ┃ ┃ ┃ ┣ dto <br>
+   ┃ ┃ ┃ ┃ ┃ ┃ ┣ ScheduleRequestDto.java <br>
+   ┃ ┃ ┃ ┃ ┃ ┃ ┗ ScheduleResponseDto.java <br>
+   ┃ ┃ ┃ ┃ ┃ ┣ entity <br>
+   ┃ ┃ ┃ ┃ ┃ ┃ ┗ Schedule.java <br>
+   ┃ ┃ ┃ ┃ ┃ ┣ repository <br>
+   ┃ ┃ ┃ ┃ ┃ ┃ ┗ ScheduleRepository.java <br>
+   ┃ ┃ ┃ ┃ ┃ ┣ service <br>
+   ┃ ┃ ┃ ┃ ┃ ┃ ┗ ScheduleService.java <br>
+   ┃ ┃ ┃ ┃ ┃ ┗ ScheduleApplication.java <br>
+   ┃ ┗ resources <br>
+   ┃ ┃ ┣ static <br>
+   ┃ ┃ ┣ templates <br>
+   ┃ ┃ ┗ application.properties <br>
+   ┗ test <br>
+   ┃ ┗ java <br>
+   ┃ ┃ ┗ com <br>
+   ┃ ┃ ┃ ┗ sparta <br>
+   ┃ ┃ ┃ ┃ ┗ schedule <br>
+   ┃ ┃ ┃ ┃ ┃ ┗ ScheduleApplicationTests.java
