@@ -7,7 +7,7 @@
 2. postman 을 사용해서 application 점검 
 
 3. api 앤드 포인트 
-    url 
+     
         1. 일정 생성 : /api/schedules
 
         2. 전체 일정 조회  : /api/schedules
