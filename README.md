@@ -19,4 +19,32 @@
 4. 예외 처리
     일정이 존재하지 않을 경우 404 오류를 반환한다. 
 
-
+5. 파일 구조 
+src
+┣ main
+┃ ┣ java
+┃ ┃ ┗ com
+┃ ┃ ┃ ┗ sparta
+┃ ┃ ┃ ┃ ┗ schedule
+┃ ┃ ┃ ┃ ┃ ┣ controller
+┃ ┃ ┃ ┃ ┃ ┃ ┗ ScheduleController.java
+┃ ┃ ┃ ┃ ┃ ┣ dto
+┃ ┃ ┃ ┃ ┃ ┃ ┣ ScheduleRequestDto.java
+┃ ┃ ┃ ┃ ┃ ┃ ┗ ScheduleResponseDto.java
+┃ ┃ ┃ ┃ ┃ ┣ entity
+┃ ┃ ┃ ┃ ┃ ┃ ┗ Schedule.java
+┃ ┃ ┃ ┃ ┃ ┣ repository
+┃ ┃ ┃ ┃ ┃ ┃ ┗ ScheduleRepository.java
+┃ ┃ ┃ ┃ ┃ ┣ service
+┃ ┃ ┃ ┃ ┃ ┃ ┗ ScheduleService.java
+┃ ┃ ┃ ┃ ┃ ┗ ScheduleApplication.java
+┃ ┗ resources
+┃ ┃ ┣ static
+┃ ┃ ┣ templates
+┃ ┃ ┗ application.properties
+┗ test
+┃ ┗ java
+┃ ┃ ┗ com
+┃ ┃ ┃ ┗ sparta
+┃ ┃ ┃ ┃ ┗ schedule
+┃ ┃ ┃ ┃ ┃ ┗ ScheduleApplicationTests.java
